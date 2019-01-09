@@ -1,0 +1,30 @@
+@media screen and (max-width:768px)
+{
+.ur-frontend-form form .ur-form-row {
+	display: flex; flex-direction: column; -webkit-flex-direction: column;
+}
+.ur-frontend-form form .ur-form-row .ur-form-grid {
+	width: 100% !important; margin-bottom: 20px;
+}
+.ur-frontend-form form .ur-form-row :nth-child(n+2).ur-form-grid {
+	border-left-color: rgb(221, 221, 221); border-left-width: 1px; border-left-style: solid;
+}
+.ur-frontend-form form .ur-form-row :last-child.ur-form-grid {
+	margin-bottom: 0px; border-left-color: currentColor; border-left-width: 0px; border-left-style: none;
+}
+}
+@media screen and (max-width:600px)
+{
+#user-registration .user-registration-MyAccount-navigation ul {
+	display: block;
+}
+#user-registration .user-registration-MyAccount-navigation ul .user-registration-MyAccount-navigation-link {
+	display: block;
+}
+#user-registration .user-registration-MyAccount-navigation ul .user-registration-MyAccount-navigation-link.is-active {
+	border-top-color: rgb(252, 252, 252); border-right-color: rgb(252, 252, 252); border-left-color: rgb(252, 252, 252); border-top-width: 1px; border-right-width: 1px; border-left-width: 1px; border-top-style: solid; border-right-style: solid; border-left-style: solid;
+}
+#user-registration .user-registration-MyAccount-navigation ul .user-registration-MyAccount-navigation-link.is-active::before {
+	display: none;
+}
+}

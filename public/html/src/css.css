@@ -1,0 +1,36 @@
+@font-face {
+	font-family: Playfair Display;
+	src: local("Playfair Display Italic"), local("PlayfairDisplay-Italic"), url(http://fonts.gstatic.com/s/playfairdisplay/v13/nuFkD-vYSZviVYUb_rj3ij__anPXDTnogkk9.woff) format("woff");
+	font-weight: 400;
+	font-style: italic;
+}
+@font-face {
+	font-family: Playfair Display;
+	src: local("Playfair Display Regular"), local("PlayfairDisplay-Regular"), url(http://fonts.gstatic.com/s/playfairdisplay/v13/nuFiD-vYSZviVYUb_rj3ij__anPXDTzYhg.woff) format("woff");
+	font-weight: 400;
+	font-style: normal;
+}
+@font-face {
+	font-family: Playfair Display;
+	src: local("Playfair Display Bold"), local("PlayfairDisplay-Bold"), url(http://fonts.gstatic.com/s/playfairdisplay/v13/nuFlD-vYSZviVYUb_rj3ij__anPXBYf9lW4e4A.woff) format("woff");
+	font-weight: 700;
+	font-style: normal;
+}
+@font-face {
+	font-family: Raleway;
+	src: local("Raleway Italic"), local("Raleway-Italic"), url(http://fonts.gstatic.com/s/raleway/v12/1Ptsg8zYS_SKggPNyCg4TYFs.woff) format("woff");
+	font-weight: 400;
+	font-style: italic;
+}
+@font-face {
+	font-family: Raleway;
+	src: local("Raleway"), local("Raleway-Regular"), url(http://fonts.gstatic.com/s/raleway/v12/1Ptug8zYS_SKggPNyC0ISQ.woff) format("woff");
+	font-weight: 400;
+	font-style: normal;
+}
+@font-face {
+	font-family: Raleway;
+	src: local("Raleway Bold"), local("Raleway-Bold"), url(http://fonts.gstatic.com/s/raleway/v12/1Ptrg8zYS_SKggPNwJYtWqZPBg.woff) format("woff");
+	font-weight: 700;
+	font-style: normal;
+}

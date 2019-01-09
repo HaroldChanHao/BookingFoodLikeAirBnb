@@ -1,0 +1,1 @@
+Hello {{$name}}, Please click the link below to activate your account, <a href="{{$link}}" target="_blank">{{$link}}</a>.

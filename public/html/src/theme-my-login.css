@@ -1,0 +1,180 @@
+.tml {
+	max-width: 320px;
+}
+.tml * {
+	box-sizing: border-box; -webkit-box-sizing: border-box; -moz-box-sizing: border-box;
+}
+.tml .error {
+	padding: 1em;
+}
+.tml .message {
+	padding: 1em;
+}
+.tml .success {
+	padding: 1em;
+}
+.tml .error {
+	border: 1px solid rgb(235, 204, 209); border-image: none; color: rgb(169, 68, 66); background-color: rgb(242, 222, 222);
+}
+.tml .message {
+	border: 1px solid rgb(250, 235, 204); border-image: none; color: rgb(138, 109, 59); background-color: rgb(252, 248, 227);
+}
+.tml .success {
+	border: 1px solid rgb(214, 233, 198); border-image: none; color: rgb(60, 118, 61); background-color: rgb(223, 240, 216);
+}
+.tml p {
+	margin: 0px 0px 1.5em; padding: 0px;
+}
+.tml label {
+	text-align: left; display: block;
+}
+.tml .tml-rememberme-wrap label {
+	display: inline;
+}
+.tml input {
+	margin: 0.5em 0px; width: 100%;
+}
+.tml textarea {
+	margin: 0.5em 0px; width: 100%;
+}
+.tml select {
+	margin: 0.5em 0px; width: 100%;
+}
+.tml input[type='checkbox'] {
+	width: auto; vertical-align: middle;
+}
+.tml input[type='radio'] {
+	width: auto; vertical-align: middle;
+}
+.tml .tml-rememberme-wrap input {
+	width: auto; vertical-align: middle;
+}
+.tml .tml-action-links {
+	list-style: none; margin: 0.5em auto; padding: 0px; text-align: center; display: inline-block;
+}
+.tml .tml-action-links li {
+	border-width: medium 1px medium medium; border-style: none solid none none; border-color: currentColor rgba(0, 0, 0, 0.1) currentColor currentColor; list-style: none; margin: 0px 0.5em 0px 0px; padding: 0px 0.5em 0px 0px; border-image: none; line-height: 1; float: left;
+}
+.tml .tml-action-links li:last-child {
+	padding-right: 0px; margin-right: 0px; border-right-color: currentColor; border-right-width: medium; border-right-style: none;
+}
+.tml .tml-action-links a {
+	padding: 0px; border: currentColor; border-image: none; text-decoration: none; display: block;
+}
+.tml .tml-rememberme-submit-wrap::before {
+	display: table; content: "";
+}
+.tml .tml-rememberme-submit-wrap::after {
+	display: table; content: "";
+}
+.tml .tml-action-links::before {
+	display: table; content: "";
+}
+.tml .tml-action-links::after {
+	display: table; content: "";
+}
+.tml .tml-rememberme-submit-wrap::after {
+	clear: both;
+}
+.tml .tml-action-links::after {
+	clear: both;
+}
+.tml .tml-user-avatar {
+	text-align: left;
+}
+.mu_register .hint {
+	font-size: 12px; margin-bottom: 10px; display: block;
+}
+.mu_register label.checkbox {
+	display: inline;
+}
+#pass-strength-result {
+	margin: -1px 0px 1.5em; padding: 3px 5px; border: 1px solid rgb(221, 221, 221); border-image: none; width: 100%; text-align: center; color: rgb(35, 40, 45); font-weight: 600; opacity: 0; background-color: rgb(238, 238, 238);
+}
+.short#pass-strength-result {
+	border-color: rgb(227, 91, 91); opacity: 1; background-color: rgb(241, 173, 173);
+}
+.short#pass1 {
+	border-color: rgb(227, 91, 91);
+}
+.short#pass1-text {
+	border-color: rgb(227, 91, 91);
+}
+.bad#pass-strength-result {
+	border-color: rgb(247, 139, 83); opacity: 1; background-color: rgb(251, 197, 169);
+}
+.bad#pass1 {
+	border-color: rgb(247, 139, 83);
+}
+.bad#pass1-text {
+	border-color: rgb(247, 139, 83);
+}
+.good#pass-strength-result {
+	border-color: rgb(255, 199, 51); opacity: 1; background-color: rgb(255, 227, 153);
+}
+.good#pass1 {
+	border-color: rgb(255, 199, 51);
+}
+.good#pass1-text {
+	border-color: rgb(255, 199, 51);
+}
+.strong#pass-strength-result {
+	border-color: rgb(131, 195, 115); opacity: 1; background-color: rgb(193, 225, 185);
+}
+.strong#pass1 {
+	border-color: rgb(131, 195, 115);
+}
+.strong#pass1-text {
+	border-color: rgb(131, 195, 115);
+}
+.tml .password-input-wrapper {
+	width: 100%; display: table;
+}
+.tml .input.password-input {
+	margin: 0px; display: table-cell;
+}
+.tml .pw-weak {
+	margin-bottom: 1.5em; display: none;
+}
+.tml .wp-hide-pw {
+	margin: 0px; padding: 0px 0.5em; text-align: center; vertical-align: middle; display: table-cell; white-space: nowrap; cursor: pointer;
+}
+#pass1 {
+	width: 100%;
+}
+#pass1-text {
+	width: 100%;
+}
+#pass1-text {
+	display: none;
+}
+.show-password #pass1 {
+	display: none;
+}
+.show-password #pass1-text {
+	display: inline-block;
+}
+@media screen and (min-width:768px)
+{
+.tml {
+	max-width: 500px;
+}
+.tml .tml-submit-wrap input {
+	width: auto;
+}
+.tml-login .tml-rememberme-submit-wrap {
+	width: 100%; margin-bottom: 1.5em; display: table;
+}
+.tml-login .tml-rememberme-wrap {
+	display: table-cell;
+}
+.tml-login .tml-rememberme-wrap input {
+	margin: 0px;
+}
+.tml-login .tml-submit-wrap {
+	text-align: right; display: table-cell;
+}
+.tml-login .tml-submit-wrap input {
+	margin: 0px; width: auto;
+}
+}

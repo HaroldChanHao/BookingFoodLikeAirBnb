@@ -1,0 +1,1 @@
+Hello {{$name}}, the activity you delete was not approved.
